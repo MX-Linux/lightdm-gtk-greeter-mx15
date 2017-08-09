@@ -1,0 +1,3 @@
+02_MX-15.conf			usr/share/lightdm/lightdm.conf.d
+MediterraneanDarkest_MX-15/*	usr/share/themes/MediterraneanDarkest_MX-15
+lightdm-gtk-greeter.conf	/etc/lightdm/mx15

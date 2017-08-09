@@ -1,0 +1,6 @@
+lightdm-gtk-greeter-mx15 (2.0.0) mx; urgency=medium
+
+  * Rebuild for MX-17.
+
+ -- Dolphin Oracle <dolphinoracle@mxlinux.org>  Tue, 08 Aug 2017 20:01:18 -0800
+
