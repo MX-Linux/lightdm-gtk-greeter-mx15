@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+  install|upgrade)
+    echo -ne '[greeter]'\\n\
+    'background=/usr/local/share/backgrounds/MX15/lightdm/Squam_Lake.jpg'\\n\
+    'theme-name=MediterraneanDarkest_MX-15'\\n\
+    'xft-antialias = true'\\n\
+    'xft-hintstyle = hintfull'\\n\
+    'xft-rgba = rgb'\\n\
+    'icon-theme-name = Faenza-Cupertino-mini'\\n\
+    'hide-user-image = true'\\n\
+    'indicators = ~host;~spacer;~session;~power'\\n\
+    'position = 60%,start 65%,start'\\n\
+    ''\\n | sed 's/^ //;s/^-ne //'>/etc/lightdm/lightdm-gtk-greeter.conf
+  ;;
+  *)
+    :
+  ;;
+esac
+
+#DEBHELPER#
+
+exit 0

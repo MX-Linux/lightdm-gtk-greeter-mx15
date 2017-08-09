@@ -1,0 +1,13 @@
+Source: lightdm-gtk-greeter-mx15
+Section: x11
+Priority: extra
+Maintainer: Steven Pusser (Stevo) <maintainer@mepiscommunity.org>
+XSBC-Original-Maintainer: Kent Mathern <maintainer@mepiscommunity.org>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: lightdm-gtk-greeter-mx15
+Architecture: all
+Depends: ${misc:Depends}, lightdm-gtk-greeter ( >> 2.0.1-2mx15+1), mx15-artwork, faenza-cupertino-icons
+Description: lightdm-gtk-greeter theme and configuration for MX15
+ .
